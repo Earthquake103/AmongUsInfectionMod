@@ -1,0 +1,2212 @@
+{
+  "mod_elements": [
+    {
+      "name": "HTest",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "h_test",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/amongius/models/block/h_test.json",
+          "src/main/java/net/mcreator/amongius/block/HTestBlock.java",
+          "src/main/resources/assets/amongius/blockstates/h_test.json",
+          "src/main/resources/data/amongius/loot_tables/blocks/h_test.json",
+          "src/main/resources/assets/amongius/models/item/h_test.json"
+        ]
+      },
+      "path": "~/blocks"
+    },
+    {
+      "name": "AmongLeave",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "among_leave",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/amongius/loot_tables/blocks/among_leave.json",
+          "src/main/java/net/mcreator/amongius/block/AmongLeaveBlock.java",
+          "src/main/resources/assets/amongius/blockstates/among_leave.json",
+          "src/main/resources/assets/amongius/models/block/among_leave.json",
+          "src/main/resources/assets/amongius/models/item/among_leave.json"
+        ]
+      },
+      "path": "~/blocks"
+    },
+    {
+      "name": "BlueAmongLeave",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blue_among_leave",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/amongius/loot_tables/blocks/blue_among_leave.json",
+          "src/main/resources/assets/amongius/models/item/blue_among_leave.json",
+          "src/main/resources/assets/amongius/models/block/blue_among_leave.json",
+          "src/main/java/net/mcreator/amongius/block/BlueAmongLeaveBlock.java",
+          "src/main/resources/assets/amongius/blockstates/blue_among_leave.json"
+        ]
+      },
+      "path": "~/blocks"
+    },
+    {
+      "name": "AmongForest",
+      "type": "biome",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "among_forest",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/amongius/worldgen/configured_feature/among_forest_tree.json",
+          "src/main/resources/data/amongius/worldgen/biome/among_forest.json",
+          "src/main/resources/data/amongius/worldgen/placed_feature/among_forest_tree.json"
+        ]
+      }
+    },
+    {
+      "name": "AmongApple",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "among_apple",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/amongius/models/item/among_apple.json",
+          "src/main/java/net/mcreator/amongius/item/AmongAppleItem.java"
+        ]
+      },
+      "path": "~/tools"
+    },
+    {
+      "name": "AppleConsumption",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "apple_consumption",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/amongius/procedures/AppleConsumptionProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/tools"
+    },
+    {
+      "name": "Amongle",
+      "type": "livingentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "amongle",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/amongius/entity/AmongleEntity.java",
+          "src/main/java/net/mcreator/amongius/client/renderer/AmongleRenderer.java",
+          "src/main/resources/data/amongius/forge/biome_modifier/amongle_biome_modifier.json",
+          "src/main/resources/assets/amongius/models/item/amongle_spawn_egg.json"
+        ]
+      }
+    },
+    {
+      "name": "BartShrankson",
+      "type": "painting",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bart_shrankson",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/Paintings"
+    },
+    {
+      "name": "AmongiusIngot",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "amongius_ingot",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/amongius/models/item/amongius_ingot.json",
+          "src/main/java/net/mcreator/amongius/item/AmongiusIngotItem.java"
+        ]
+      }
+    },
+    {
+      "name": "AmongiusOre",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "amongius_ore",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/amongius/worldgen/configured_feature/amongius_ore.json",
+          "src/main/resources/data/amongius/worldgen/placed_feature/amongius_ore.json",
+          "src/main/resources/data/amongius/loot_tables/blocks/amongius_ore.json",
+          "src/main/java/net/mcreator/amongius/block/AmongiusOreBlock.java",
+          "src/main/resources/assets/amongius/blockstates/amongius_ore.json",
+          "src/main/resources/assets/amongius/models/item/amongius_ore.json",
+          "src/main/resources/assets/amongius/models/block/amongius_ore.json",
+          "src/main/resources/data/amongius/forge/biome_modifier/amongius_ore_biome_modifier.json"
+        ]
+      },
+      "path": "~/blocks"
+    },
+    {
+      "name": "AmongiusBlock",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "amongius_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/amongius/models/block/amongius_block.json",
+          "src/main/resources/data/amongius/loot_tables/blocks/amongius_block.json",
+          "src/main/resources/assets/amongius/blockstates/amongius_block.json",
+          "src/main/java/net/mcreator/amongius/block/AmongiusBlockBlock.java",
+          "src/main/resources/assets/amongius/models/item/amongius_block.json"
+        ]
+      },
+      "path": "~/blocks"
+    },
+    {
+      "name": "AmongiusOreSmelting",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "amongius_ore_smelting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/amongius/recipes/amongius_ore_smelting.json"
+        ]
+      },
+      "path": "~/recipes"
+    },
+    {
+      "name": "RawAmongius",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "raw_amongius",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/amongius/item/RawAmongiusItem.java",
+          "src/main/resources/assets/amongius/models/item/raw_amongius.json"
+        ]
+      }
+    },
+    {
+      "name": "AmongStatueSmall",
+      "type": "structure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "among_statue_small",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/amongius/worldgen/structure/among_statue_small.json",
+          "src/main/resources/data/amongius/worldgen/template_pool/among_statue_small.json",
+          "src/main/resources/data/amongius/worldgen/structure_set/among_statue_small.json"
+        ]
+      }
+    },
+    {
+      "name": "AmongStatueLarge",
+      "type": "structure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "among_statue_large",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/amongius/worldgen/template_pool/among_statue_large.json",
+          "src/main/resources/data/amongius/worldgen/structure/among_statue_large.json",
+          "src/main/resources/data/amongius/worldgen/structure_set/among_statue_large.json"
+        ]
+      }
+    },
+    {
+      "name": "AmongNugget",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "among_nugget",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/amongius/item/AmongNuggetItem.java",
+          "src/main/resources/assets/amongius/models/item/among_nugget.json"
+        ]
+      }
+    },
+    {
+      "name": "AmongCrafting",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "among_crafting",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/amongius/models/item/among_crafting.json",
+          "src/main/resources/data/amongius/loot_tables/blocks/among_crafting.json",
+          "src/main/resources/assets/amongius/blockstates/among_crafting.json",
+          "src/main/java/net/mcreator/amongius/block/AmongCraftingBlock.java",
+          "src/main/java/net/mcreator/amongius/block/entity/AmongCraftingBlockEntity.java",
+          "src/main/resources/assets/amongius/models/block/among_crafting.json"
+        ]
+      },
+      "path": "~/Amongius Forge Recipies and Functions"
+    },
+    {
+      "name": "AmongCraftingGUI",
+      "type": "gui",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "among_crafting_gui",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/amongius/network/AmongCraftingGUISlotMessage.java",
+          "src/main/java/net/mcreator/amongius/world/inventory/AmongCraftingGUIMenu.java",
+          "src/main/java/net/mcreator/amongius/network/AmongCraftingGUIButtonMessage.java",
+          "src/main/java/net/mcreator/amongius/client/gui/AmongCraftingGUIScreen.java"
+        ]
+      },
+      "path": "~/Amongius Forge Recipies and Functions"
+    },
+    {
+      "name": "ForgeInventoryGUIWhileOpenTick",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "forge_inventory_gui_while_open_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/amongius/procedures/ForgeInventoryGUIWhileOpenTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Amongius Forge Recipies and Functions"
+    },
+    {
+      "name": "WhenItemForged",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "when_item_forged",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/amongius/procedures/WhenItemForgedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Amongius Forge Recipies and Functions"
+    },
+    {
+      "name": "ForgeClose",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "forge_close",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/amongius/procedures/ForgeCloseProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Amongius Forge Recipies and Functions"
+    },
+    {
+      "name": "AmongAppleRecipe",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "among_apple_recipe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/amongius/procedures/AmongAppleRecipeProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Amongius Forge Recipies and Functions"
+    },
+    {
+      "name": "AmongiusBlockRecipe",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "amongius_block_recipe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/amongius/procedures/AmongiusBlockRecipeProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Amongius Forge Recipies and Functions"
+    },
+    {
+      "name": "AmongiusBlockConversionRecipe",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "amongius_block_conversion_recipe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/amongius/procedures/AmongiusBlockConversionRecipeProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Amongius Forge Recipies and Functions"
+    },
+    {
+      "name": "AmogiusIngotRecipe",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "amogius_ingot_recipe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/amongius/procedures/AmogiusIngotRecipeProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Amongius Forge Recipies and Functions"
+    },
+    {
+      "name": "AmogiusIngotConversionRecipe",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "amogius_ingot_conversion_recipe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/amongius/procedures/AmogiusIngotConversionRecipeProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Amongius Forge Recipies and Functions"
+    },
+    {
+      "name": "AmongWoodPlank",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "among_wood_plank",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/amongius/models/item/among_wood_plank.json",
+          "src/main/resources/assets/amongius/models/block/among_wood_plank.json",
+          "src/main/java/net/mcreator/amongius/block/AmongWoodPlankBlock.java",
+          "src/main/resources/data/amongius/loot_tables/blocks/among_wood_plank.json",
+          "src/main/resources/assets/amongius/blockstates/among_wood_plank.json"
+        ]
+      },
+      "path": "~/blocks"
+    },
+    {
+      "name": "AmooogForge",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "amooog_forge",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/amongius/recipes/amooog_forge.json"
+        ]
+      },
+      "path": "~/recipes"
+    },
+    {
+      "name": "AmongiusStorageContainer",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "amongius_storage_container",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/amongius/block/AmongiusStorageContainerBlock.java",
+          "src/main/resources/assets/amongius/models/block/amongius_storage_container.json",
+          "src/main/java/net/mcreator/amongius/block/entity/AmongiusStorageContainerBlockEntity.java",
+          "src/main/resources/assets/amongius/models/item/amongius_storage_container.json",
+          "src/main/resources/assets/amongius/blockstates/amongius_storage_container.json",
+          "src/main/resources/data/amongius/loot_tables/blocks/amongius_storage_container.json"
+        ]
+      },
+      "path": "~/blocks"
+    },
+    {
+      "name": "AmongStorageGUI",
+      "type": "gui",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "among_storage_gui",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/amongius/world/inventory/AmongStorageGUIMenu.java",
+          "src/main/java/net/mcreator/amongius/client/gui/AmongStorageGUIScreen.java"
+        ]
+      },
+      "path": "~/blocks"
+    },
+    {
+      "name": "AmongiusStorageProcedure",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "amongius_storage_procedure",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/amongius/procedures/AmongiusStorageProcedureProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/blocks"
+    },
+    {
+      "name": "AmongUs",
+      "type": "damagetype",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "among_us",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/amongius/damage_type/among_us.json"
+        ]
+      }
+    },
+    {
+      "name": "AmongiusStorageRecipe",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "amongius_storage_recipe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/amongius/procedures/AmongiusStorageRecipeProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Amongius Forge Recipies and Functions"
+    },
+    {
+      "name": "AmongWoodPlanks",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "among_wood_planks",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/amongius/recipes/among_wood_planks.json"
+        ]
+      },
+      "path": "~/recipes"
+    },
+    {
+      "name": "AmongWoodCraftingTable",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "among_wood_crafting_table",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/amongius/recipes/among_wood_crafting_table.json"
+        ]
+      },
+      "path": "~/recipes"
+    },
+    {
+      "name": "FaceMask",
+      "type": "armor",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "face_mask",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/amongius/item/FaceMaskItem.java",
+          "src/main/resources/assets/amongius/models/item/face_mask_helmet.json"
+        ]
+      },
+      "path": "~/tools"
+    },
+    {
+      "name": "Steven",
+      "type": "painting",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steven",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/Paintings"
+    },
+    {
+      "name": "AmongProjectileFlying",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "among_projectile_flying",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/amongius/procedures/AmongProjectileFlyingProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/tools"
+    },
+    {
+      "name": "AmongProjectile",
+      "type": "projectile",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "among_projectile",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/amongius/entity/AmongProjectileEntity.java",
+          "src/main/java/net/mcreator/amongius/client/renderer/AmongProjectileRenderer.java"
+        ]
+      },
+      "path": "~/tools"
+    },
+    {
+      "name": "AmongLauncherCanUseRangedItem",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "among_launcher_can_use_ranged_item",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/amongius/procedures/AmongLauncherCanUseRangedItemProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/tools"
+    },
+    {
+      "name": "AmongLauncher",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "among_launcher",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/amongius/models/item/among_launcher.json",
+          "src/main/java/net/mcreator/amongius/item/AmongLauncherItem.java"
+        ]
+      },
+      "path": "~/tools"
+    },
+    {
+      "name": "AmongProjectileProjectileHitsSomething",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "among_projectile_projectile_hits_something",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/amongius/procedures/AmongProjectileProjectileHitsSomethingProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/tools"
+    },
+    {
+      "name": "AmongusRodRecipe",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "amongus_rod_recipe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/amongius/procedures/AmongusRodRecipeProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Amongius Forge Recipies and Functions"
+    },
+    {
+      "name": "AmongLauncherRangedItemShootsProjectile",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "among_launcher_ranged_item_shoots_projectile",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/amongius/procedures/AmongLauncherRangedItemShootsProjectileProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/tools"
+    },
+    {
+      "name": "PlayerDamagable",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "player_damagable",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/amongius/procedures/PlayerDamagableProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "AmongWoodChestReciper",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "among_wood_chest_reciper",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/amongius/recipes/among_wood_chest_reciper.json"
+        ]
+      },
+      "path": "~/recipes"
+    },
+    {
+      "name": "AmongWoodSticksRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "among_wood_sticks_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/amongius/recipes/among_wood_sticks_recipe.json"
+        ]
+      },
+      "path": "~/recipes"
+    },
+    {
+      "name": "AmongiusShaft",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "amongius_shaft",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/amongius/models/item/amongius_shaft.json",
+          "src/main/java/net/mcreator/amongius/item/AmongiusShaftItem.java"
+        ]
+      },
+      "path": "~/tools"
+    },
+    {
+      "name": "HenryMaskPermanent",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "henry_mask_permanent",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/amongius/procedures/HenryMaskPermanentProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/tools"
+    },
+    {
+      "name": "AmongiusShaftRecipe",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "amongius_shaft_recipe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/amongius/procedures/AmongiusShaftRecipeProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Amongius Forge Recipies and Functions"
+    },
+    {
+      "name": "FaceRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "face_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/amongius/recipes/face_recipe.json"
+        ]
+      },
+      "path": "~/recipes"
+    },
+    {
+      "name": "Sponge",
+      "type": "painting",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sponge",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/Paintings"
+    },
+    {
+      "name": "FaceMaskHelmetTickEvent",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "face_mask_helmet_tick_event",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/amongius/procedures/FaceMaskHelmetTickEventProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/tools"
+    },
+    {
+      "name": "AmongusTree",
+      "type": "structure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "amongus_tree",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/amongius/worldgen/structure_set/amongus_tree.json",
+          "src/main/resources/data/amongius/worldgen/structure/amongus_tree.json",
+          "src/main/resources/data/amongius/worldgen/template_pool/amongus_tree.json"
+        ]
+      }
+    },
+    {
+      "name": "AmonglePaint",
+      "type": "painting",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "amongle_paint",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/Paintings"
+    },
+    {
+      "name": "AmongDisc",
+      "type": "musicdisc",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "among_disc",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/amongius/item/AmongDiscItem.java",
+          "src/main/resources/assets/amongius/models/item/among_disc.json"
+        ]
+      },
+      "path": "~/tools"
+    },
+    {
+      "name": "AmongMissileUp",
+      "type": "livingentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "among_missile_up",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/amongius/entity/AmongMissileUpEntity.java",
+          "src/main/java/net/mcreator/amongius/client/renderer/AmongMissileUpRenderer.java"
+        ]
+      },
+      "path": "~/Missile"
+    },
+    {
+      "name": "AmongMissileSummonerRightclickedOnBlock",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "among_missile_summoner_rightclicked_on_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/amongius/procedures/AmongMissileSummonerRightclickedOnBlockProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Missile"
+    },
+    {
+      "name": "AmongMissileSummoner",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "among_missile_summoner",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/amongius/models/item/among_missile_summoner.json",
+          "src/main/java/net/mcreator/amongius/item/AmongMissileSummonerItem.java",
+          "src/main/java/net/mcreator/amongius/item/inventory/AmongMissileSummonerInventoryCapability.java"
+        ]
+      },
+      "path": "~/Missile"
+    },
+    {
+      "name": "AmongMissileUpOnEntityTickUpdate",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "among_missile_up_on_entity_tick_update",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/amongius/procedures/AmongMissileUpOnEntityTickUpdateProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Missile"
+    },
+    {
+      "name": "AmongMissileDown",
+      "type": "livingentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "among_missile_down",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/amongius/client/renderer/AmongMissileDownRenderer.java",
+          "src/main/java/net/mcreator/amongius/entity/AmongMissileDownEntity.java"
+        ]
+      },
+      "path": "~/Missile"
+    },
+    {
+      "name": "AmongMissileUpOnInitialEntitySpawn",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "among_missile_up_on_initial_entity_spawn",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/amongius/procedures/AmongMissileUpOnInitialEntitySpawnProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Missile"
+    },
+    {
+      "name": "AmongMissileDownOnEntityTickUpdate",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "among_missile_down_on_entity_tick_update",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/amongius/procedures/AmongMissileDownOnEntityTickUpdateProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Missile"
+    },
+    {
+      "name": "AmongMissileGUI",
+      "type": "gui",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "among_missile_gui",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/amongius/network/AmongMissileGUIButtonMessage.java",
+          "src/main/java/net/mcreator/amongius/world/inventory/AmongMissileGUIMenu.java",
+          "src/main/java/net/mcreator/amongius/client/gui/AmongMissileGUIScreen.java"
+        ]
+      },
+      "path": "~/Missile"
+    },
+    {
+      "name": "MissileGUIButtonClick",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "missile_gui_button_click",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/amongius/procedures/MissileGUIButtonClickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "guistate",
+            "type": "map"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Missile"
+    },
+    {
+      "name": "AmongMissileDownOnInitialEntitySpawn",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "among_missile_down_on_initial_entity_spawn",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/amongius/procedures/AmongMissileDownOnInitialEntitySpawnProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Missile"
+    },
+    {
+      "name": "AmongiusRocketRecipe",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "amongius_rocket_recipe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/amongius/procedures/AmongiusRocketRecipeProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Amongius Forge Recipies and Functions"
+    },
+    {
+      "name": "AmongiusOreBlockDestroyed",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "amongius_ore_block_destroyed",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/amongius/procedures/AmongiusOreBlockDestroyedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/blocks"
+    },
+    {
+      "name": "RawAmongiusSmelt",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "raw_amongius_smelt",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/amongius/recipes/raw_amongius_smelt.json"
+        ]
+      },
+      "path": "~/recipes"
+    },
+    {
+      "name": "AmongDiscRecipe",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "among_disc_recipe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/amongius/procedures/AmongDiscRecipeProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Amongius Forge Recipies and Functions"
+    },
+    {
+      "name": "AmongSwordLivingEntityIsHitWithTool",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "among_sword_living_entity_is_hit_with_tool",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/amongius/procedures/AmongSwordLivingEntityIsHitWithToolProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/tools"
+    },
+    {
+      "name": "AmongSword",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "among_sword",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/amongius/item/AmongSwordItem.java",
+          "src/main/resources/assets/amongius/models/item/among_sword.json"
+        ]
+      },
+      "path": "~/tools"
+    },
+    {
+      "name": "AmongSwordRecipe",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "among_sword_recipe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/amongius/procedures/AmongSwordRecipeProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Amongius Forge Recipies and Functions"
+    },
+    {
+      "name": "Goku",
+      "type": "painting",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "goku",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/Paintings"
+    },
+    {
+      "name": "SquidGame",
+      "type": "painting",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "squid_game",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/Paintings"
+    },
+    {
+      "name": "Venom",
+      "type": "painting",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "venom",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/Paintings"
+    },
+    {
+      "name": "SpongeDunk",
+      "type": "painting",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sponge_dunk",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/Paintings"
+    },
+    {
+      "name": "Broccoli",
+      "type": "painting",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "broccoli",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/Paintings"
+    },
+    {
+      "name": "Amongwoodpickaxe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "amongwoodpickaxe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/amongius/recipes/amongwoodpickaxe.json"
+        ]
+      },
+      "path": "~/recipes"
+    },
+    {
+      "name": "Amongwoodpshovel",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "amongwoodpshovel",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/amongius/recipes/amongwoodpshovel.json"
+        ]
+      },
+      "path": "~/recipes"
+    },
+    {
+      "name": "Amongwoodaxe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "amongwoodaxe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/amongius/recipes/amongwoodaxe.json"
+        ]
+      },
+      "path": "~/recipes"
+    },
+    {
+      "name": "Amongwoodhoe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "amongwoodhoe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/amongius/recipes/amongwoodhoe.json"
+        ]
+      },
+      "path": "~/recipes"
+    },
+    {
+      "name": "Amongwoodswrod",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "amongwoodswrod",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/amongius/recipes/amongwoodswrod.json"
+        ]
+      },
+      "path": "~/recipes"
+    },
+    {
+      "name": "OminousChest",
+      "type": "structure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ominous_chest",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/amongius/worldgen/structure/ominous_chest.json",
+          "src/main/resources/data/amongius/worldgen/template_pool/ominous_chest.json",
+          "src/main/resources/data/amongius/worldgen/structure_set/ominous_chest.json"
+        ]
+      }
+    },
+    {
+      "name": "Amongwoodstairs",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "amongwoodstairs",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/amongius/loot_tables/blocks/amongwoodstairs.json",
+          "src/main/java/net/mcreator/amongius/block/AmongwoodstairsBlock.java",
+          "src/main/resources/assets/amongius/models/block/amongwoodstairs_outer.json",
+          "src/main/resources/assets/amongius/models/block/amongwoodstairs_inner.json",
+          "src/main/resources/assets/amongius/models/item/amongwoodstairs.json",
+          "src/main/resources/assets/amongius/blockstates/amongwoodstairs.json",
+          "src/main/resources/assets/amongius/models/block/amongwoodstairs.json"
+        ]
+      },
+      "path": "~/blocks"
+    },
+    {
+      "name": "AmongwoodSlab",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "amongwood_slab",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/amongius/models/block/amongwood_slab.json",
+          "src/main/java/net/mcreator/amongius/block/AmongwoodSlabBlock.java",
+          "src/main/resources/assets/amongius/models/block/amongwood_slab_top.json",
+          "src/main/resources/assets/amongius/models/block/amongwood_slab_full.json",
+          "src/main/resources/data/amongius/loot_tables/blocks/amongwood_slab.json",
+          "src/main/resources/assets/amongius/models/item/amongwood_slab.json",
+          "src/main/resources/assets/amongius/blockstates/amongwood_slab.json"
+        ]
+      },
+      "path": "~/blocks"
+    },
+    {
+      "name": "AmongPickaxe",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "among_pickaxe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/amongius/models/item/among_pickaxe.json",
+          "src/main/java/net/mcreator/amongius/item/AmongPickaxeItem.java"
+        ]
+      },
+      "path": "~/tools"
+    },
+    {
+      "name": "AmongPickaxeBlockDestroyedWithTool",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "among_pickaxe_block_destroyed_with_tool",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/amongius/procedures/AmongPickaxeBlockDestroyedWithToolProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Missile"
+    },
+    {
+      "name": "AmongPickRecipe",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "among_pick_recipe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/amongius/procedures/AmongPickRecipeProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Amongius Forge Recipies and Functions"
+    },
+    {
+      "name": "AmongPickaxeLivingEntityIsHitWithTool",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "among_pickaxe_living_entity_is_hit_with_tool",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/amongius/procedures/AmongPickaxeLivingEntityIsHitWithToolProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/tools"
+    },
+    {
+      "name": "Singed",
+      "type": "painting",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "singed",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/Paintings"
+    },
+    {
+      "name": "Smile",
+      "type": "painting",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "smile",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/Paintings"
+    },
+    {
+      "name": "Funky",
+      "type": "painting",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "funky",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/Paintings"
+    },
+    {
+      "name": "Nickmen",
+      "type": "painting",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nickmen",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/Paintings"
+    },
+    {
+      "name": "Woodstairs",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "woodstairs",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/amongius/recipes/amongwoodstairs.json"
+        ]
+      },
+      "path": "~/recipes"
+    },
+    {
+      "name": "AmongAppleItemInHandTick",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "among_apple_item_in_hand_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/amongius/procedures/AmongAppleItemInHandTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/tools"
+    },
+    {
+      "name": "Amongslab",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "amongslab",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/amongius/recipes/amongslab.json"
+        ]
+      },
+      "path": "~/recipes"
+    },
+    {
+      "name": "Amongfence",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "amongfence",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/amongius/models/block/amongfence_inventory.json",
+          "src/main/java/net/mcreator/amongius/block/AmongfenceBlock.java",
+          "src/main/resources/assets/amongius/models/block/amongfence.json",
+          "src/main/resources/assets/amongius/blockstates/amongfence.json",
+          "src/main/resources/assets/amongius/models/block/amongfence_post.json",
+          "src/main/resources/data/amongius/loot_tables/blocks/amongfence.json",
+          "src/main/resources/assets/amongius/models/item/amongfence.json"
+        ]
+      },
+      "path": "~/blocks"
+    },
+    {
+      "name": "AmongEggRecipe",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "among_egg_recipe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/amongius/procedures/AmongEggRecipeProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Amongius Forge Recipies and Functions"
+    },
+    {
+      "name": "AmongiusOreBackSmelt",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "amongius_ore_back_smelt",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/amongius/recipes/amongius_ore_back_smelt.json"
+        ]
+      },
+      "path": "~/recipes"
+    },
+    {
+      "name": "Amongfencerecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "amongfencerecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/amongius/recipes/amongfencerecipe.json"
+        ]
+      },
+      "path": "~/recipes"
+    },
+    {
+      "name": "Amongiusblast",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "amongiusblast",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/amongius/recipes/amongiusblast.json"
+        ]
+      },
+      "path": "~/recipes"
+    },
+    {
+      "name": "Amongbackblast",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "amongbackblast",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/amongius/recipes/amongbackblast.json"
+        ]
+      },
+      "path": "~/recipes"
+    },
+    {
+      "name": "AmongCar",
+      "type": "livingentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "among_car",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/amongius/models/item/among_car_spawn_egg.json",
+          "src/main/java/net/mcreator/amongius/entity/AmongCarEntity.java",
+          "src/main/java/net/mcreator/amongius/client/renderer/AmongCarRenderer.java"
+        ]
+      },
+      "path": "~/Car"
+    }
+  ],
+  "variable_elements": [
+    {
+      "name": "iFrames",
+      "type": "number",
+      "scope": "player_lifetime",
+      "value": "0"
+    },
+    {
+      "name": "hasWornHenryMask",
+      "type": "logic",
+      "scope": "player_persistent",
+      "value": "false"
+    },
+    {
+      "name": "playerMissileTarget",
+      "type": "string",
+      "scope": "player_persistent",
+      "value": "\"\""
+    },
+    {
+      "name": "targetName",
+      "type": "string",
+      "scope": "player_persistent",
+      "value": "\"\""
+    },
+    {
+      "name": "wKey",
+      "type": "logic",
+      "scope": "player_persistent",
+      "value": "false"
+    }
+  ],
+  "sound_elements": [
+    {
+      "name": "amogusidle",
+      "files": [
+        "amogus_-_sound_effect"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    },
+    {
+      "name": "amongdeath",
+      "files": [
+        "among_us_sound_effect"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    },
+    {
+      "name": "amongstep",
+      "files": [
+        "amogus_sound_effect"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    },
+    {
+      "name": "alarm",
+      "files": [
+        "danger_alarm_meme_sound_effect"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    },
+    {
+      "name": "amongtrap",
+      "files": [
+        "among_us_trap_remix_among_drip_theme_song"
+      ],
+      "category": "record",
+      "subtitle": ""
+    }
+  ],
+  "tag_elements": {
+    "BLOCKS:minecraft:needs_iron_tool": [
+      "~CUSTOM:AmongiusOre"
+    ],
+    "BLOCKS:minecraft:mineable/hoe": [
+      "~CUSTOM:BlueAmongLeave",
+      "~CUSTOM:AmongLeave"
+    ],
+    "BIOMES:minecraft:has_structure/buried_treasure": [
+      "~CUSTOM:AmongForest"
+    ],
+    "ITEMS:minecraft:pickaxes": [
+      "~CUSTOM:AmongPickaxe"
+    ],
+    "BIOMES:minecraft:has_structure/mineshaft": [
+      "~CUSTOM:AmongForest"
+    ],
+    "ITEMS:minecraft:music_discs": [
+      "~CUSTOM:AmongDisc"
+    ],
+    "BLOCKS:minecraft:mineable/axe": [
+      "~CUSTOM:Amongfence",
+      "~CUSTOM:AmongwoodSlab",
+      "~CUSTOM:Amongwoodstairs",
+      "~CUSTOM:AmongWoodPlank",
+      "~CUSTOM:HTest"
+    ],
+    "BLOCKS:minecraft:mineable/pickaxe": [
+      "~CUSTOM:AmongiusOre"
+    ],
+    "BLOCKS:minecraft:slabs": [
+      "~CUSTOM:AmongwoodSlab"
+    ],
+    "BLOCKS:minecraft:fences": [
+      "~CUSTOM:Amongfence"
+    ],
+    "BLOCKS:minecraft:stairs": [
+      "~CUSTOM:Amongwoodstairs"
+    ],
+    "BIOMES:minecraft:has_structure/ruined_portal_standard": [
+      "~CUSTOM:AmongForest"
+    ],
+    "ITEMS:minecraft:swords": [
+      "~CUSTOM:AmongSword"
+    ],
+    "ITEMS:mod:amongapplereicpe": [
+      "CUSTOM:AmongiusBlock",
+      "Items.APPLE"
+    ],
+    "BIOMES:minecraft:has_structure/village_plains": [
+      "~CUSTOM:AmongForest"
+    ]
+  },
+  "tab_element_order": {},
+  "language_map": {
+    "en_us": {
+      "painting.henrys_mod.broccoli.author": "Prolam Y\u0026R",
+      "painting.minecraft_mod.amongle_paint.author": "Unknown",
+      "painting.henrys_mod.venom.author": "Kael Ngu",
+      "painting.henrys_mod.sponge_dunk.title": "Spongebob Dunking",
+      "item.amongius.amongle_spawn_egg": "Amongle Spawn Egg",
+      "block.amongius.amongwoodstairs": "Amongwood Stairs",
+      "block.henrys_mod.among_wood_plank": "Amongwood Planks",
+      "item.minecraft_mod.among_launcher": "Amongius Launcher",
+      "painting.amongius.bart_shrankson.title": "Biargle Shrankson",
+      "gui.amongius.among_missile_gui.label_enter_victim_name_here": "Enter Victim Name Here",
+      "item.henrys_mod.among_sword": "Amongius Blade",
+      "painting.amongius.goku.title": "Drip Goku",
+      "painting.amongius.sponge_dunk.title": "Spongebob Dunking",
+      "item.henrys_mod.among_pickaxe": "Amongius Pickaxe",
+      "item.amongius.face_mask_helmet": "Henry Mask",
+      "block.amongius.among_wood_plank": "Amongwood Planks",
+      "block.henrys_mod.blue_among_leave": "Among Leave",
+      "item.henrys_mod.among_disc.desc": "Leonz - Among Us Trap Remix",
+      "entity.amongius.among_missile_down": "Among Missile Down",
+      "entity.henrys_mod.among_missile_down": "Among Missile Down",
+      "block.henrys_mod.amongwood_slab": "Amongwood Slab",
+      "item.henrys_mod.among_missile_summoner": "Amongius Rocket",
+      "item.henrys_mod.raw_amongius": "Raw Amongius",
+      "block.amongius.amongius_ore": "Amongius Ore",
+      "painting.amongius.nickmen.author": "Earthquake101",
+      "item.minecraft_mod.amongle_spawn_egg": "Amongle Spawn Egg",
+      "painting.henrys_mod.funky.author": "Nintendo",
+      "block.minecraft_mod.among_wood_plank": "Among Wood Plank",
+      "subtitles.alarm": "",
+      "item.minecraft_mod.among_disc": "Among Us Trap Remix",
+      "block.henrys_mod.amongius_block": "Amongius Cube",
+      "painting.amongius.smile.title": "Smile",
+      "block.henrys_mod.among_leave": "Among Leave",
+      "block.amongius.blue_among_leave": "Among Leave",
+      "painting.henrys_mod.nickmen.author": "Earthquake101",
+      "painting.henrys_mod.singed.title": "Singed",
+      "painting.henrys_mod.venom.title": "Venom Dunking on Spiderman",
+      "gui.amongius.among_crafting_gui.button_forge": "Forge",
+      "item.minecraft_mod.amongius_ingot": "Amongius Ingot",
+      "gui.henrys_mod.among_crafting_gui.label_result": "Result ",
+      "item.henrys_mod.among_nugget": "Amongius Fragment",
+      "item.henrys_mod.amongius_shaft": "Amongius Shaft",
+      "item.amongius.among_apple": "Amongius Apple",
+      "gui.minecraft_mod.among_storage_gui.label_amongius_storage_container": "Amongius Storage Container",
+      "painting.amongius.broccoli.author": "Prolam Y\u0026R",
+      "block.minecraft_mod.h_test": "Amongwood Log",
+      "block.minecraft_mod.amongius_ore": "Amongius Ore",
+      "painting.minecraft_mod.sponge.title": "Gangster Spongbob",
+      "item.amongius.among_pickaxe": "Amongius Pickaxe",
+      "gui.amongius.among_crafting_gui.label_result": "Result ",
+      "block.amongius.among_crafting": "Amongius Forge",
+      "block.minecraft_mod.among_leave": "Among Leave",
+      "gui.henrys_mod.among_missile_gui.nameEnter": "Player Name",
+      "painting.amongius.steven.author": "at2",
+      "painting.amongius.sponge_dunk.author": "Nicole Kim",
+      "gui.minecraft_mod.among_crafting_gui.label_result": "Result ",
+      "subtitles.amongtrap": "",
+      "death.attack.among_us": "%1$s could not contain the power",
+      "gui.amongius.among_crafting_gui.label_among_us_crafting": "Amongius Forge",
+      "painting.minecraft_mod.sponge.author": "Unknown",
+      "painting.amongius.steven.title": "Steven",
+      "block.minecraft_mod.blue_among_leave": "Among Leave",
+      "painting.amongius.squid_game.title": "Roblox Squid Game",
+      "block.henrys_mod.amongius_ore": "Amongius Ore",
+      "painting.henrys_mod.goku.author": "No Sply",
+      "entity.amongius.amongle": "Amongle",
+      "painting.amongius.singed.title": "Singed",
+      "painting.henrys_mod.squid_game.title": "Roblox Squid Game",
+      "item.amongius.among_launcher": "Amongius Launcher",
+      "painting.amongius.nickmen.title": "Nickmen",
+      "block.henrys_mod.amongius_storage_container": "Amongius Storage Container",
+      "biome.henrys_mod.among_forest": "Among Forest",
+      "painting.amongius.goku.author": "No Sply",
+      "death.attack.among_us.player": "%1$s died whilst trying to escape %2$s",
+      "subtitles.amongdeath": "",
+      "entity.henrys_mod.among_missile_up": "Among Missile Up",
+      "biome.amongius.among_forest": "Among Forest",
+      "item.minecraft_mod.raw_amongius": "Raw Amongius",
+      "item.amongius.among_car_spawn_egg": "Among Car Spawn Egg",
+      "gui.minecraft_mod.among_crafting_gui.button_forge": "Forge",
+      "block.henrys_mod.among_crafting": "Amongius Forge",
+      "painting.henrys_mod.sponge_dunk.author": "Nicole Kim",
+      "gui.henrys_mod.among_storage_gui.label_amongius_storage_container": "Amongius Storage Container",
+      "item.minecraft_mod.among_nugget": "Amongius Fragment",
+      "painting.henrys_mod.singed.author": "League of Legends",
+      "painting.henrys_mod.amongle_paint.author": "Chris Le",
+      "painting.henrys_mod.bart_shrankson.title": "Biargle Shrankson",
+      "item.minecraft_mod.amongius_shaft": "Amongius Shaft",
+      "item.amongius.among_nugget": "Amongius Fragment",
+      "item.henrys_mod.amongle_spawn_egg": "Amongle Spawn Egg",
+      "block.minecraft_mod.among_crafting": "Amongius Forge",
+      "painting.henrys_mod.bart_shrankson.author": "Baba Booey",
+      "painting.amongius.venom.title": "Venom Dunking on Spiderman",
+      "item.amongius.raw_amongius": "Raw Amongius",
+      "block.amongius.h_test": "Amongwood Log",
+      "painting.amongius.amongle_paint.author": "Chris Le",
+      "painting.amongius.funky.author": "Nintendo",
+      "painting.minecraft_mod.bart_shrankson.title": "Biargle Shrankson",
+      "painting.amongius.venom.author": "Kael Ngu",
+      "painting.minecraft_mod.steven.title": "Steven",
+      "painting.minecraft_mod.amongle_paint.title": "Drip Among Us",
+      "gui.henrys_mod.among_missile_gui.label_enter_victim_name_here": "Enter Victim Name Here",
+      "painting.henrys_mod.smile.author": "Unknown",
+      "entity.minecraft_mod.car_question_mark": "Car",
+      "entity.minecraft_mod.amongle": "Amongle",
+      "painting.minecraft_mod.steven.author": "at2",
+      "block.henrys_mod.amongwoodstairs": "Amongwood Stairs",
+      "painting.henrys_mod.amongle_paint.title": "Drip Among Us",
+      "painting.henrys_mod.smile.title": "Smile",
+      "item.minecraft_mod.car_question_mark_spawn_egg": "Car Spawn Egg",
+      "block.henrys_mod.h_test": "Amongwood Log",
+      "item.henrys_mod.among_apple": "Amongius Apple",
+      "biome.minecraft_mod.among_forest": "Among Forest",
+      "painting.henrys_mod.squid_game.author": "ArtBlox406",
+      "block.amongius.among_leave": "Among Leave",
+      "painting.amongius.funky.title": "Funky Kong",
+      "item.amongius.amongius_ingot": "Amongius Ingot",
+      "painting.amongius.broccoli.title": "Broccoli",
+      "painting.amongius.squid_game.author": "ArtBlox406",
+      "item.henrys_mod.face_mask_helmet": "Henry Mask",
+      "painting.henrys_mod.sponge.title": "Gangster Spongbob",
+      "block.amongius.amongwood_slab": "Amongwood Slab",
+      "painting.henrys_mod.funky.title": "Funky Kong",
+      "gui.amongius.among_missile_gui.button_confirm_name": "Confirm Name",
+      "gui.amongius.among_storage_gui.label_amongius_storage_container": "Amongius Storage Container",
+      "painting.amongius.sponge.author": "Unknown",
+      "painting.henrys_mod.sponge.author": "Unknown",
+      "painting.amongius.amongle_paint.title": "Drip Among Us",
+      "painting.henrys_mod.steven.title": "Steven",
+      "gui.henrys_mod.among_crafting_gui.label_among_us_crafting": "Amongius Forge",
+      "painting.henrys_mod.nickmen.title": "Nickmen",
+      "item.henrys_mod.among_launcher": "Amongius Launcher",
+      "item.amongius.among_sword": "Amongius Blade",
+      "entity.amongius.among_missile_up": "Among Missile Up",
+      "gui.minecraft_mod.among_crafting_gui.label_among_us_crafting": "Amongius Forge",
+      "item.amongius.among_missile_summoner": "Amongius Missile",
+      "gui.henrys_mod.among_crafting_gui.button_forge": "Forge",
+      "item.minecraft_mod.among_apple": "Among Apple",
+      "block.amongius.amongfence": "Amongfence",
+      "block.amongius.amongius_storage_container": "Amongius Storage Container",
+      "subtitles.amogusidle": "",
+      "painting.amongius.bart_shrankson.author": "Baba Booey",
+      "painting.henrys_mod.broccoli.title": "Broccoli",
+      "painting.amongius.sponge.title": "Gangster Spongbob",
+      "subtitles.amongstep": "",
+      "block.minecraft_mod.amongius_storage_container": "Amongius Storage Container",
+      "painting.amongius.singed.author": "League of Legends",
+      "painting.amongius.smile.author": "Unknown",
+      "entity.henrys_mod.amongle": "Amongle",
+      "death.attack.among_us.item": "%1$s was killed by %2$s using %3$s",
+      "gui.henrys_mod.among_missile_gui.button_confirm_name": "Confirm Name",
+      "item.henrys_mod.amongius_ingot": "Amongius Ingot",
+      "item.amongius.among_disc": "Among Us Trap Remix",
+      "item.amongius.among_disc.desc": "Leonz - Among Us Trap Remix",
+      "painting.henrys_mod.steven.author": "at2",
+      "item.henrys_mod.among_disc": "Among Us Trap Remix",
+      "item.minecraft_mod.among_disc.desc": "Leonz - Among Us Trap Remix",
+      "painting.minecraft_mod.bart_shrankson.author": "Baba Booey",
+      "painting.henrys_mod.goku.title": "Drip Goku",
+      "gui.amongius.among_missile_gui.nameEnter": "Player Name",
+      "entity.amongius.among_car": "Among Car",
+      "item.minecraft_mod.face_mask_helmet": "Henry Mask",
+      "block.minecraft_mod.amongius_block": "Amongius Cube",
+      "block.amongius.amongius_block": "Amongius Cube",
+      "item.amongius.amongius_shaft": "Amongius Shaft"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": [
+      {
+        "name": "Amongius Forge Recipies and Functions",
+        "children": []
+      },
+      {
+        "name": "Missile",
+        "children": []
+      },
+      {
+        "name": "Paintings",
+        "children": []
+      },
+      {
+        "name": "tools",
+        "children": []
+      },
+      {
+        "name": "blocks",
+        "children": []
+      },
+      {
+        "name": "recipes",
+        "children": []
+      },
+      {
+        "name": "Car",
+        "children": []
+      }
+    ]
+  },
+  "workspaceSettings": {
+    "modid": "amongius",
+    "modName": "Among Us Infection",
+    "version": "1.1.2",
+    "description": "Infects your world with the Among Us Biome",
+    "author": "Earthquake101, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "All Rights Reserved",
+    "serverSideOnly": false,
+    "modPicture": "ims06c64idb91_1",
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.20.1",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "net.mcreator.amongius"
+  },
+  "mcreatorVersion": 202400232117
+}

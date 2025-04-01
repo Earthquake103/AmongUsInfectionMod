@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "amongius:block/amongwood_slab"
+    },
+    "type=top": {
+      "model": "amongius:block/amongwood_slab_top"
+    },
+    "type=double": {
+      "model": "amongius:block/amongwood_slab_full"
+    }
+  }
+}

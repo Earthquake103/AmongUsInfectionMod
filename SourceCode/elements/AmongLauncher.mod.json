@@ -1,0 +1,75 @@
+{
+  "_fv": 66,
+  "_type": "item",
+  "definition": {
+    "renderType": 0,
+    "texture": "amongwands",
+    "customModelName": "Ranged item",
+    "customProperties": {},
+    "states": [],
+    "name": "Amongius Launcher",
+    "rarity": "UNCOMMON",
+    "creativeTabs": [
+      {
+        "value": "COMBAT"
+      }
+    ],
+    "stackSize": 1,
+    "enchantability": 0,
+    "useDuration": 20,
+    "toolType": 1.0,
+    "damageCount": 0,
+    "recipeRemainder": {
+      "value": ""
+    },
+    "destroyAnyBlock": false,
+    "immuneToFire": true,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "enableMeleeDamage": false,
+    "damageVsEntity": 0.0,
+    "specialInformation": {
+      "fixedValue": [
+        "Launch divine retribution towards your foes.",
+        "",
+        "\"AMONG US!\""
+      ]
+    },
+    "glowCondition": {
+      "fixedValue": false
+    },
+    "guiBoundTo": "<NONE>",
+    "inventorySize": 9,
+    "inventoryStackSize": 64,
+    "onStoppedUsing": {
+      "name": "AmongLauncherRangedItemShootsProjectile"
+    },
+    "onEntitySwing": {
+      "name": "AmongLauncherRangedItemShootsProjectile"
+    },
+    "onFinishUsingItem": {
+      "name": "AmongLauncherRangedItemShootsProjectile"
+    },
+    "enableRanged": true,
+    "shootConstantly": false,
+    "rangedItemChargesPower": false,
+    "projectile": {
+      "value": "CUSTOM:AmongProjectile"
+    },
+    "onRangedItemUsed": {
+      "name": "AmongLauncherRangedItemShootsProjectile"
+    },
+    "rangedUseCondition": {
+      "name": "AmongLauncherCanUseRangedItem"
+    },
+    "isFood": false,
+    "nutritionalValue": 4,
+    "saturation": 0.3,
+    "eatResultItem": {
+      "value": ""
+    },
+    "isMeat": false,
+    "isAlwaysEdible": false,
+    "animation": "bow"
+  }
+}

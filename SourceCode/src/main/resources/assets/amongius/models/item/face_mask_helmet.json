@@ -1,0 +1,7 @@
+{
+  "parent": "amongius:custom/therealface",
+  "textures": {
+    "1": "amongius:block/evenmoretexturful",
+    "particle": "amongius:item/evenmoretexturful"
+  }
+}

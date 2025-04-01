@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "amongius:among_statue_small",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 5,
+    "separation": 2,
+    "salt": 431334204
+  }
+}

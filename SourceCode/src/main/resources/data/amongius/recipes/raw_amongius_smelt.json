@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "experience": 1,
+  "cookingtime": 200,
+  "ingredient": {
+    "item": "amongius:h_test"
+  },
+  "result": "amongius:raw_amongius"
+}

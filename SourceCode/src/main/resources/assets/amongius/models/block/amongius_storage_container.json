@@ -1,0 +1,9 @@
+{
+  "parent": "amongius:custom/amongius_storage",
+  "textures": {
+    "all": "amongius:block/storagetexture",
+    "particle": "amongius:block/storagetexture",
+    "0": "amongius:block/storagetexture"
+  },
+  "render_type": "solid"
+}

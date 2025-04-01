@@ -1,0 +1,63 @@
+{
+  "_fv": 66,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 174,
+    "height": 90,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "textfield",
+        "data": {
+          "placeholder": "Player Name",
+          "name": "nameEnter",
+          "width": 120,
+          "height": 20,
+          "x": 154,
+          "y": 107
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_enter_victim_name_here",
+          "text": {
+            "fixedValue": "Enter Victim Name Here"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 157,
+          "y": 90
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_confirm_name",
+          "text": "Confirm Name",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "MissileGUIButtonClick"
+          },
+          "width": 87,
+          "height": 20,
+          "x": 171,
+          "y": 133
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": true
+    }
+  }
+}

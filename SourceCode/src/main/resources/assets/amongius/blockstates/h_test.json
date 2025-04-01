@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "amongius:block/h_test",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "amongius:block/h_test"
+    },
+    "axis=z": {
+      "model": "amongius:block/h_test",
+      "x": 90
+    }
+  }
+}

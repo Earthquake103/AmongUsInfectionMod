@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "amongius:among_forest",
+  "features": "amongius:amongius_ore",
+  "step": "underground_ores"
+}

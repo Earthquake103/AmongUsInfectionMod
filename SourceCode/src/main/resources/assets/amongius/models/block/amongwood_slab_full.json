@@ -1,0 +1,10 @@
+{
+  "parent": "block/cube_bottom_top",
+  "textures": {
+    "particle": "amongius:block/amongwoodplankside",
+    "bottom": "amongius:block/amongwoodplankside",
+    "top": "amongius:block/amongwoodplankside",
+    "side": "amongius:block/amongwoodplankside"
+  },
+  "render_type": "solid"
+}

@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:block",
+  "random_sequence": "amongius:blocks/among_crafting",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "amongius:among_crafting"
+        }
+      ]
+    }
+  ]
+}

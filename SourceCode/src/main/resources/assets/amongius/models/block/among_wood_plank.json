@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "amongius:block/amongwoodplankside",
+    "particle": "amongius:block/amongwoodplankside"
+  },
+  "render_type": "solid"
+}

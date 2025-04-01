@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "amongius:block/blueamongleave",
+    "up": "amongius:block/blueamongleave",
+    "north": "amongius:block/blueamongleave",
+    "east": "amongius:block/blueamongleave",
+    "south": "amongius:block/blueamongleave",
+    "west": "amongius:block/blueamongleave",
+    "particle": "amongius:block/blueamongleave"
+  },
+  "render_type": "cutout"
+}

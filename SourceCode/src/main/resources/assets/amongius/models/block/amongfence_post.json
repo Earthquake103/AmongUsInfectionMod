@@ -1,0 +1,8 @@
+{
+  "parent": "block/fence_post",
+  "textures": {
+    "texture": "amongius:block/amongwoodplankside",
+    "particle": "amongius:block/amongwoodplankside"
+  },
+  "render_type": "solid"
+}

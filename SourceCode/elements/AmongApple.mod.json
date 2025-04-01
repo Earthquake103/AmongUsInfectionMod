@@ -1,0 +1,67 @@
+{
+  "_fv": 66,
+  "_type": "item",
+  "definition": {
+    "renderType": 0,
+    "texture": "amongaepple",
+    "customModelName": "Normal",
+    "customProperties": {},
+    "states": [],
+    "name": "Amongius Apple",
+    "rarity": "EPIC",
+    "creativeTabs": [
+      {
+        "value": "FOOD"
+      }
+    ],
+    "stackSize": 63,
+    "enchantability": 0,
+    "useDuration": 32,
+    "toolType": 1.0,
+    "damageCount": 0,
+    "recipeRemainder": {
+      "value": ""
+    },
+    "destroyAnyBlock": false,
+    "immuneToFire": true,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "enableMeleeDamage": false,
+    "damageVsEntity": 0.0,
+    "specialInformation": {
+      "fixedValue": [
+        "A foodstuff meant for the Gods.",
+        "Mortals may have trouble digesting.",
+        "",
+        "'Doesn't taste very good, 3/10' - Joey Chestnut"
+      ]
+    },
+    "glowCondition": {
+      "fixedValue": true
+    },
+    "guiBoundTo": "<NONE>",
+    "inventorySize": 9,
+    "inventoryStackSize": 64,
+    "onItemInUseTick": {
+      "name": "AmongAppleItemInHandTick"
+    },
+    "onFinishUsingItem": {
+      "name": "AppleConsumption"
+    },
+    "enableRanged": false,
+    "shootConstantly": false,
+    "rangedItemChargesPower": false,
+    "projectile": {
+      "value": "Arrow"
+    },
+    "isFood": true,
+    "nutritionalValue": 20,
+    "saturation": 5.0,
+    "eatResultItem": {
+      "value": ""
+    },
+    "isMeat": false,
+    "isAlwaysEdible": true,
+    "animation": "eat"
+  }
+}

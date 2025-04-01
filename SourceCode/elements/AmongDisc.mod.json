@@ -1,0 +1,28 @@
+{
+  "_fv": 66,
+  "_type": "musicdisc",
+  "definition": {
+    "name": "Among Us Trap Remix",
+    "rarity": "RARE",
+    "texture": "amongdisc",
+    "description": "Leonz - Among Us Trap Remix",
+    "creativeTabs": [
+      {
+        "value": "TOOLS"
+      }
+    ],
+    "specialInformation": {
+      "fixedValue": [
+        "This song is quite suspicious"
+      ]
+    },
+    "glowCondition": {
+      "fixedValue": false
+    },
+    "music": {
+      "value": "CUSTOM:amongtrap"
+    },
+    "lengthInTicks": 1460,
+    "analogOutput": 0
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "amongius:h_test"
+    }
+  ],
+  "result": {
+    "item": "amongius:among_wood_plank",
+    "count": 4
+  }
+}

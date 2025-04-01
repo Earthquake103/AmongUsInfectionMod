@@ -1,0 +1,9 @@
+{
+  "parent": "amongius:custom/amongcrafting",
+  "textures": {
+    "all": "amongius:block/evenmoretextural",
+    "particle": "amongius:block/amongiusblockbottom",
+    "1": "amongius:block/evenmoretextural"
+  },
+  "render_type": "solid"
+}

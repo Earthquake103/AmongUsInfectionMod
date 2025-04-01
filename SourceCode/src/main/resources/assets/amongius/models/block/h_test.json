@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "amongius:block/amongwoodtop",
+    "up": "amongius:block/amongwoodtop",
+    "north": "amongius:block/amongwood",
+    "east": "amongius:block/amongwood",
+    "south": "amongius:block/amongwood",
+    "west": "amongius:block/amongwood",
+    "particle": "amongius:block/amongwoodtop"
+  },
+  "render_type": "solid"
+}

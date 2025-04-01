@@ -1,0 +1,49 @@
+{
+  "_fv": 66,
+  "_type": "tool",
+  "definition": {
+    "toolType": "Pickaxe",
+    "renderType": 0,
+    "blockingRenderType": 0,
+    "texture": "amongpick",
+    "customModelName": "Normal",
+    "blockingModelName": "Normal blocking",
+    "name": "Amongius Pickaxe",
+    "specialInformation": {
+      "fixedValue": [
+        "Turns the very blocks it mines into Amongius",
+        "",
+        "'Mining with style!'"
+      ]
+    },
+    "creativeTabs": [
+      {
+        "value": "TOOLS"
+      }
+    ],
+    "efficiency": 30.0,
+    "attackSpeed": 1.0,
+    "enchantability": 50,
+    "damageVsEntity": 4.0,
+    "usageCount": 500,
+    "glowCondition": {
+      "fixedValue": false
+    },
+    "repairItems": [
+      {
+        "value": "CUSTOM:AmongiusBlock"
+      }
+    ],
+    "immuneToFire": true,
+    "blockDropsTier": "DIAMOND",
+    "blocksAffected": [],
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "onEntityHitWith": {
+      "name": "AmongPickaxeLivingEntityIsHitWithTool"
+    },
+    "onBlockDestroyedWithTool": {
+      "name": "AmongPickaxeBlockDestroyedWithTool"
+    }
+  }
+}

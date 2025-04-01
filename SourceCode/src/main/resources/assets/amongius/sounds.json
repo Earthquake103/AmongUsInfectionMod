@@ -1,0 +1,42 @@
+{
+  "amogusidle": {
+    "sounds": [
+      {
+        "name": "amongius:amogus_-_sound_effect",
+        "stream": false
+      }
+    ]
+  },
+  "amongdeath": {
+    "sounds": [
+      {
+        "name": "amongius:among_us_sound_effect",
+        "stream": false
+      }
+    ]
+  },
+  "amongstep": {
+    "sounds": [
+      {
+        "name": "amongius:amogus_sound_effect",
+        "stream": false
+      }
+    ]
+  },
+  "alarm": {
+    "sounds": [
+      {
+        "name": "amongius:danger_alarm_meme_sound_effect",
+        "stream": false
+      }
+    ]
+  },
+  "amongtrap": {
+    "sounds": [
+      {
+        "name": "amongius:among_us_trap_remix_among_drip_theme_song",
+        "stream": true
+      }
+    ]
+  }
+}
