@@ -52,6 +52,7 @@ public class AmongiusModItems {
 	public static final RegistryObject<Item> AMONG_PICKAXE = REGISTRY.register("among_pickaxe", () -> new AmongPickaxeItem());
 	public static final RegistryObject<Item> AMONGFENCE = block(AmongiusModBlocks.AMONGFENCE);
 	public static final RegistryObject<Item> AMONG_CAR_SPAWN_EGG = REGISTRY.register("among_car_spawn_egg", () -> new ForgeSpawnEggItem(AmongiusModEntities.AMONG_CAR, -1, -1, new Item.Properties()));
+	public static final RegistryObject<Item> AMONG_TREE_SAPLING = block(AmongiusModBlocks.AMONG_TREE_SAPLING);
 
 	// Start of user code block custom items
 	// End of user code block custom items

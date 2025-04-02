@@ -19,6 +19,7 @@ import net.mcreator.amongius.block.AmongiusOreBlock;
 import net.mcreator.amongius.block.AmongiusBlockBlock;
 import net.mcreator.amongius.block.AmongfenceBlock;
 import net.mcreator.amongius.block.AmongWoodPlankBlock;
+import net.mcreator.amongius.block.AmongTreeSaplingBlock;
 import net.mcreator.amongius.block.AmongLeaveBlock;
 import net.mcreator.amongius.block.AmongCraftingBlock;
 import net.mcreator.amongius.AmongiusMod;
@@ -36,6 +37,7 @@ public class AmongiusModBlocks {
 	public static final RegistryObject<Block> AMONGWOODSTAIRS = REGISTRY.register("amongwoodstairs", () -> new AmongwoodstairsBlock());
 	public static final RegistryObject<Block> AMONGWOOD_SLAB = REGISTRY.register("amongwood_slab", () -> new AmongwoodSlabBlock());
 	public static final RegistryObject<Block> AMONGFENCE = REGISTRY.register("amongfence", () -> new AmongfenceBlock());
+	public static final RegistryObject<Block> AMONG_TREE_SAPLING = REGISTRY.register("among_tree_sapling", () -> new AmongTreeSaplingBlock());
 	// Start of user code block custom blocks
 	// End of user code block custom blocks
 }

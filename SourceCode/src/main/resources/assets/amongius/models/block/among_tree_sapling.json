@@ -1,0 +1,8 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "amongius:block/amongsapling",
+    "particle": "amongius:block/amongsapling"
+  },
+  "render_type": "cutout"
+}

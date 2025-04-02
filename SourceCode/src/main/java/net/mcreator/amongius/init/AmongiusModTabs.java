@@ -47,6 +47,7 @@ public class AmongiusModTabs {
 		} else if (tabData.getTabKey() == CreativeModeTabs.NATURAL_BLOCKS) {
 			tabData.accept(AmongiusModBlocks.AMONG_LEAVE.get().asItem());
 			tabData.accept(AmongiusModBlocks.BLUE_AMONG_LEAVE.get().asItem());
+			tabData.accept(AmongiusModBlocks.AMONG_TREE_SAPLING.get().asItem());
 		} else if (tabData.getTabKey() == CreativeModeTabs.FOOD_AND_DRINKS) {
 			tabData.accept(AmongiusModItems.AMONG_APPLE.get());
 		} else if (tabData.getTabKey() == CreativeModeTabs.TOOLS_AND_UTILITIES) {

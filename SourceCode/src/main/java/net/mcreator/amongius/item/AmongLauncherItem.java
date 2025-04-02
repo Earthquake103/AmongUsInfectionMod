@@ -42,7 +42,7 @@ public class AmongLauncherItem extends Item {
 		super.appendHoverText(itemstack, level, list, flag);
 		list.add(Component.literal("Launch divine retribution towards your foes."));
 		list.add(Component.literal(""));
-		list.add(Component.literal("\"AMONG US!\""));
+		list.add(Component.literal("'AMONG US!'"));
 	}
 
 	@Override

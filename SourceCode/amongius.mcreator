@@ -8,11 +8,11 @@
       "registry_name": "h_test",
       "metadata": {
         "files": [
-          "src/main/resources/assets/amongius/models/block/h_test.json",
-          "src/main/java/net/mcreator/amongius/block/HTestBlock.java",
           "src/main/resources/assets/amongius/blockstates/h_test.json",
           "src/main/resources/data/amongius/loot_tables/blocks/h_test.json",
-          "src/main/resources/assets/amongius/models/item/h_test.json"
+          "src/main/resources/assets/amongius/models/item/h_test.json",
+          "src/main/resources/assets/amongius/models/block/h_test.json",
+          "src/main/java/net/mcreator/amongius/block/HTestBlock.java"
         ]
       },
       "path": "~/blocks"
@@ -25,10 +25,9 @@
       "registry_name": "among_leave",
       "metadata": {
         "files": [
-          "src/main/resources/data/amongius/loot_tables/blocks/among_leave.json",
           "src/main/java/net/mcreator/amongius/block/AmongLeaveBlock.java",
-          "src/main/resources/assets/amongius/blockstates/among_leave.json",
           "src/main/resources/assets/amongius/models/block/among_leave.json",
+          "src/main/resources/assets/amongius/blockstates/among_leave.json",
           "src/main/resources/assets/amongius/models/item/among_leave.json"
         ]
       },
@@ -42,11 +41,11 @@
       "registry_name": "blue_among_leave",
       "metadata": {
         "files": [
+          "src/main/resources/assets/amongius/blockstates/blue_among_leave.json",
+          "src/main/java/net/mcreator/amongius/block/BlueAmongLeaveBlock.java",
           "src/main/resources/data/amongius/loot_tables/blocks/blue_among_leave.json",
           "src/main/resources/assets/amongius/models/item/blue_among_leave.json",
-          "src/main/resources/assets/amongius/models/block/blue_among_leave.json",
-          "src/main/java/net/mcreator/amongius/block/BlueAmongLeaveBlock.java",
-          "src/main/resources/assets/amongius/blockstates/blue_among_leave.json"
+          "src/main/resources/assets/amongius/models/block/blue_among_leave.json"
         ]
       },
       "path": "~/blocks"
@@ -723,8 +722,8 @@
       "registry_name": "among_launcher",
       "metadata": {
         "files": [
-          "src/main/resources/assets/amongius/models/item/among_launcher.json",
-          "src/main/java/net/mcreator/amongius/item/AmongLauncherItem.java"
+          "src/main/java/net/mcreator/amongius/item/AmongLauncherItem.java",
+          "src/main/resources/assets/amongius/models/item/among_launcher.json"
         ]
       },
       "path": "~/tools"
@@ -1858,6 +1857,98 @@
         ]
       },
       "path": "~/Car"
+    },
+    {
+      "name": "AmongTreeSaplingOnBoneMealSuccess",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "among_tree_sapling_on_bone_meal_success",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/amongius/procedures/AmongTreeSaplingOnBoneMealSuccessProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/blocks"
+    },
+    {
+      "name": "AmongTreeSapling",
+      "type": "plant",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "among_tree_sapling",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/amongius/blockstates/among_tree_sapling.json",
+          "src/main/resources/data/amongius/loot_tables/blocks/among_tree_sapling.json",
+          "src/main/resources/assets/amongius/models/block/among_tree_sapling.json",
+          "src/main/resources/assets/amongius/models/item/among_tree_sapling.json",
+          "src/main/java/net/mcreator/amongius/block/AmongTreeSaplingBlock.java"
+        ]
+      },
+      "path": "~/blocks"
+    },
+    {
+      "name": "AmongTreeSaplingOnTickUpdate",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "among_tree_sapling_on_tick_update",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/amongius/procedures/AmongTreeSaplingOnTickUpdateProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/blocks"
+    },
+    {
+      "name": "LeavesLoot",
+      "type": "loottable",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "leaves_loot",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/amongius/loot_tables/blocks/among_leave.json"
+        ]
+      },
+      "path": "~/blocks"
     }
   ],
   "variable_elements": [
@@ -1953,6 +2044,13 @@
     ],
     "ITEMS:minecraft:music_discs": [
       "~CUSTOM:AmongDisc"
+    ],
+    "BIOMES:minecraft:is_overworld": [],
+    "BLOCKS:minecraft:logs": [
+      "CUSTOM:HTest"
+    ],
+    "BLOCKS:minecraft:leaves": [
+      "CUSTOM:BlueAmongLeave"
     ],
     "BLOCKS:minecraft:mineable/axe": [
       "~CUSTOM:Amongfence",
@@ -2087,6 +2185,7 @@
       "block.amongius.h_test": "Amongwood Log",
       "painting.amongius.amongle_paint.author": "Chris Le",
       "painting.amongius.funky.author": "Nintendo",
+      "block.amongius.among_tree_sapling": "Amongwood Sapling",
       "painting.minecraft_mod.bart_shrankson.title": "Biargle Shrankson",
       "painting.amongius.venom.author": "Kael Ngu",
       "painting.minecraft_mod.steven.title": "Steven",
@@ -2104,7 +2203,7 @@
       "item.henrys_mod.among_apple": "Amongius Apple",
       "biome.minecraft_mod.among_forest": "Among Forest",
       "painting.henrys_mod.squid_game.author": "ArtBlox406",
-      "block.amongius.among_leave": "Among Leave",
+      "block.amongius.among_leave": "Amongwood Leaves",
       "painting.amongius.funky.title": "Funky Kong",
       "item.amongius.amongius_ingot": "Amongius Ingot",
       "painting.amongius.broccoli.title": "Broccoli",
@@ -2193,7 +2292,7 @@
   "workspaceSettings": {
     "modid": "amongius",
     "modName": "Among Us Infection",
-    "version": "1.1.2",
+    "version": "1.1.3",
     "description": "Infects your world with the Among Us Biome",
     "author": "Earthquake101, MCreator",
     "websiteURL": "https://mcreator.net",
