@@ -1,6 +1,6 @@
 {
   "type": "forge:add_spawns",
-  "biomes": "amongius:among_forest",
+  "biomes": "amongius:amongwood_forest",
   "spawners": {
     "type": "amongius:amongle",
     "weight": 200,

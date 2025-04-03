@@ -43,7 +43,6 @@
         "files": [
           "src/main/resources/assets/amongius/blockstates/blue_among_leave.json",
           "src/main/java/net/mcreator/amongius/block/BlueAmongLeaveBlock.java",
-          "src/main/resources/data/amongius/loot_tables/blocks/blue_among_leave.json",
           "src/main/resources/assets/amongius/models/item/blue_among_leave.json",
           "src/main/resources/assets/amongius/models/block/blue_among_leave.json"
         ]
@@ -55,12 +54,12 @@
       "type": "biome",
       "compiles": true,
       "locked_code": false,
-      "registry_name": "among_forest",
+      "registry_name": "amongwood_forest",
       "metadata": {
         "files": [
-          "src/main/resources/data/amongius/worldgen/configured_feature/among_forest_tree.json",
-          "src/main/resources/data/amongius/worldgen/biome/among_forest.json",
-          "src/main/resources/data/amongius/worldgen/placed_feature/among_forest_tree.json"
+          "src/main/resources/data/amongius/worldgen/biome/amongwood_forest.json",
+          "src/main/resources/data/amongius/worldgen/placed_feature/amongwood_forest_tree.json",
+          "src/main/resources/data/amongius/worldgen/configured_feature/amongwood_forest_tree.json"
         ]
       }
     },
@@ -121,10 +120,10 @@
       "registry_name": "amongle",
       "metadata": {
         "files": [
+          "src/main/resources/assets/amongius/models/item/amongle_spawn_egg.json",
           "src/main/java/net/mcreator/amongius/entity/AmongleEntity.java",
-          "src/main/java/net/mcreator/amongius/client/renderer/AmongleRenderer.java",
           "src/main/resources/data/amongius/forge/biome_modifier/amongle_biome_modifier.json",
-          "src/main/resources/assets/amongius/models/item/amongle_spawn_egg.json"
+          "src/main/java/net/mcreator/amongius/client/renderer/AmongleRenderer.java"
         ]
       }
     },
@@ -147,8 +146,8 @@
       "registry_name": "amongius_ingot",
       "metadata": {
         "files": [
-          "src/main/resources/assets/amongius/models/item/amongius_ingot.json",
-          "src/main/java/net/mcreator/amongius/item/AmongiusIngotItem.java"
+          "src/main/java/net/mcreator/amongius/item/AmongiusIngotItem.java",
+          "src/main/resources/assets/amongius/models/item/amongius_ingot.json"
         ]
       }
     },
@@ -160,14 +159,14 @@
       "registry_name": "amongius_ore",
       "metadata": {
         "files": [
+          "src/main/resources/data/amongius/forge/biome_modifier/amongius_ore_biome_modifier.json",
+          "src/main/resources/assets/amongius/models/item/amongius_ore.json",
+          "src/main/resources/assets/amongius/blockstates/amongius_ore.json",
+          "src/main/java/net/mcreator/amongius/block/AmongiusOreBlock.java",
           "src/main/resources/data/amongius/worldgen/configured_feature/amongius_ore.json",
           "src/main/resources/data/amongius/worldgen/placed_feature/amongius_ore.json",
-          "src/main/resources/data/amongius/loot_tables/blocks/amongius_ore.json",
-          "src/main/java/net/mcreator/amongius/block/AmongiusOreBlock.java",
-          "src/main/resources/assets/amongius/blockstates/amongius_ore.json",
-          "src/main/resources/assets/amongius/models/item/amongius_ore.json",
           "src/main/resources/assets/amongius/models/block/amongius_ore.json",
-          "src/main/resources/data/amongius/forge/biome_modifier/amongius_ore_biome_modifier.json"
+          "src/main/resources/data/amongius/loot_tables/blocks/amongius_ore.json"
         ]
       },
       "path": "~/blocks"
@@ -180,11 +179,11 @@
       "registry_name": "amongius_block",
       "metadata": {
         "files": [
-          "src/main/resources/assets/amongius/models/block/amongius_block.json",
-          "src/main/resources/data/amongius/loot_tables/blocks/amongius_block.json",
           "src/main/resources/assets/amongius/blockstates/amongius_block.json",
+          "src/main/resources/data/amongius/loot_tables/blocks/amongius_block.json",
           "src/main/java/net/mcreator/amongius/block/AmongiusBlockBlock.java",
-          "src/main/resources/assets/amongius/models/item/amongius_block.json"
+          "src/main/resources/assets/amongius/models/item/amongius_block.json",
+          "src/main/resources/assets/amongius/models/block/amongius_block.json"
         ]
       },
       "path": "~/blocks"
@@ -223,9 +222,9 @@
       "registry_name": "among_statue_small",
       "metadata": {
         "files": [
+          "src/main/resources/data/amongius/worldgen/structure_set/among_statue_small.json",
           "src/main/resources/data/amongius/worldgen/structure/among_statue_small.json",
-          "src/main/resources/data/amongius/worldgen/template_pool/among_statue_small.json",
-          "src/main/resources/data/amongius/worldgen/structure_set/among_statue_small.json"
+          "src/main/resources/data/amongius/worldgen/template_pool/among_statue_small.json"
         ]
       }
     },
@@ -238,8 +237,8 @@
       "metadata": {
         "files": [
           "src/main/resources/data/amongius/worldgen/template_pool/among_statue_large.json",
-          "src/main/resources/data/amongius/worldgen/structure/among_statue_large.json",
-          "src/main/resources/data/amongius/worldgen/structure_set/among_statue_large.json"
+          "src/main/resources/data/amongius/worldgen/structure_set/among_statue_large.json",
+          "src/main/resources/data/amongius/worldgen/structure/among_statue_large.json"
         ]
       }
     },
@@ -265,11 +264,11 @@
       "metadata": {
         "files": [
           "src/main/resources/assets/amongius/models/item/among_crafting.json",
+          "src/main/resources/assets/amongius/models/block/among_crafting.json",
           "src/main/resources/data/amongius/loot_tables/blocks/among_crafting.json",
-          "src/main/resources/assets/amongius/blockstates/among_crafting.json",
           "src/main/java/net/mcreator/amongius/block/AmongCraftingBlock.java",
           "src/main/java/net/mcreator/amongius/block/entity/AmongCraftingBlockEntity.java",
-          "src/main/resources/assets/amongius/models/block/among_crafting.json"
+          "src/main/resources/assets/amongius/blockstates/among_crafting.json"
         ]
       },
       "path": "~/Amongius Forge Recipies and Functions"
@@ -282,10 +281,10 @@
       "registry_name": "among_crafting_gui",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/amongius/network/AmongCraftingGUISlotMessage.java",
-          "src/main/java/net/mcreator/amongius/world/inventory/AmongCraftingGUIMenu.java",
+          "src/main/java/net/mcreator/amongius/client/gui/AmongCraftingGUIScreen.java",
           "src/main/java/net/mcreator/amongius/network/AmongCraftingGUIButtonMessage.java",
-          "src/main/java/net/mcreator/amongius/client/gui/AmongCraftingGUIScreen.java"
+          "src/main/java/net/mcreator/amongius/world/inventory/AmongCraftingGUIMenu.java",
+          "src/main/java/net/mcreator/amongius/network/AmongCraftingGUISlotMessage.java"
         ]
       },
       "path": "~/Amongius Forge Recipies and Functions"
@@ -482,11 +481,11 @@
       "registry_name": "among_wood_plank",
       "metadata": {
         "files": [
-          "src/main/resources/assets/amongius/models/item/among_wood_plank.json",
           "src/main/resources/assets/amongius/models/block/among_wood_plank.json",
-          "src/main/java/net/mcreator/amongius/block/AmongWoodPlankBlock.java",
+          "src/main/resources/assets/amongius/blockstates/among_wood_plank.json",
           "src/main/resources/data/amongius/loot_tables/blocks/among_wood_plank.json",
-          "src/main/resources/assets/amongius/blockstates/among_wood_plank.json"
+          "src/main/resources/assets/amongius/models/item/among_wood_plank.json",
+          "src/main/java/net/mcreator/amongius/block/AmongWoodPlankBlock.java"
         ]
       },
       "path": "~/blocks"
@@ -512,12 +511,12 @@
       "registry_name": "amongius_storage_container",
       "metadata": {
         "files": [
+          "src/main/resources/assets/amongius/models/item/amongius_storage_container.json",
           "src/main/java/net/mcreator/amongius/block/AmongiusStorageContainerBlock.java",
           "src/main/resources/assets/amongius/models/block/amongius_storage_container.json",
-          "src/main/java/net/mcreator/amongius/block/entity/AmongiusStorageContainerBlockEntity.java",
-          "src/main/resources/assets/amongius/models/item/amongius_storage_container.json",
+          "src/main/resources/data/amongius/loot_tables/blocks/amongius_storage_container.json",
           "src/main/resources/assets/amongius/blockstates/amongius_storage_container.json",
-          "src/main/resources/data/amongius/loot_tables/blocks/amongius_storage_container.json"
+          "src/main/java/net/mcreator/amongius/block/entity/AmongiusStorageContainerBlockEntity.java"
         ]
       },
       "path": "~/blocks"
@@ -632,8 +631,8 @@
       "registry_name": "face_mask",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/amongius/item/FaceMaskItem.java",
-          "src/main/resources/assets/amongius/models/item/face_mask_helmet.json"
+          "src/main/resources/assets/amongius/models/item/face_mask_helmet.json",
+          "src/main/java/net/mcreator/amongius/item/FaceMaskItem.java"
         ]
       },
       "path": "~/tools"
@@ -964,8 +963,8 @@
       "registry_name": "amongus_tree",
       "metadata": {
         "files": [
-          "src/main/resources/data/amongius/worldgen/structure_set/amongus_tree.json",
           "src/main/resources/data/amongius/worldgen/structure/amongus_tree.json",
+          "src/main/resources/data/amongius/worldgen/structure_set/amongus_tree.json",
           "src/main/resources/data/amongius/worldgen/template_pool/amongus_tree.json"
         ]
       }
@@ -989,8 +988,8 @@
       "registry_name": "among_disc",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/amongius/item/AmongDiscItem.java",
-          "src/main/resources/assets/amongius/models/item/among_disc.json"
+          "src/main/resources/assets/amongius/models/item/among_disc.json",
+          "src/main/java/net/mcreator/amongius/item/AmongDiscItem.java"
         ]
       },
       "path": "~/tools"
@@ -1056,9 +1055,9 @@
       "registry_name": "among_missile_summoner",
       "metadata": {
         "files": [
-          "src/main/resources/assets/amongius/models/item/among_missile_summoner.json",
+          "src/main/java/net/mcreator/amongius/item/inventory/AmongMissileSummonerInventoryCapability.java",
           "src/main/java/net/mcreator/amongius/item/AmongMissileSummonerItem.java",
-          "src/main/java/net/mcreator/amongius/item/inventory/AmongMissileSummonerInventoryCapability.java"
+          "src/main/resources/assets/amongius/models/item/among_missile_summoner.json"
         ]
       },
       "path": "~/Missile"
@@ -1190,9 +1189,9 @@
       "registry_name": "among_missile_gui",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/amongius/network/AmongMissileGUIButtonMessage.java",
+          "src/main/java/net/mcreator/amongius/client/gui/AmongMissileGUIScreen.java",
           "src/main/java/net/mcreator/amongius/world/inventory/AmongMissileGUIMenu.java",
-          "src/main/java/net/mcreator/amongius/client/gui/AmongMissileGUIScreen.java"
+          "src/main/java/net/mcreator/amongius/network/AmongMissileGUIButtonMessage.java"
         ]
       },
       "path": "~/Missile"
@@ -1372,8 +1371,8 @@
       "registry_name": "among_sword",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/amongius/item/AmongSwordItem.java",
-          "src/main/resources/assets/amongius/models/item/among_sword.json"
+          "src/main/resources/assets/amongius/models/item/among_sword.json",
+          "src/main/java/net/mcreator/amongius/item/AmongSwordItem.java"
         ]
       },
       "path": "~/tools"
@@ -1526,8 +1525,8 @@
       "metadata": {
         "files": [
           "src/main/resources/data/amongius/worldgen/structure/ominous_chest.json",
-          "src/main/resources/data/amongius/worldgen/template_pool/ominous_chest.json",
-          "src/main/resources/data/amongius/worldgen/structure_set/ominous_chest.json"
+          "src/main/resources/data/amongius/worldgen/structure_set/ominous_chest.json",
+          "src/main/resources/data/amongius/worldgen/template_pool/ominous_chest.json"
         ]
       }
     },
@@ -1539,13 +1538,13 @@
       "registry_name": "amongwoodstairs",
       "metadata": {
         "files": [
-          "src/main/resources/data/amongius/loot_tables/blocks/amongwoodstairs.json",
-          "src/main/java/net/mcreator/amongius/block/AmongwoodstairsBlock.java",
-          "src/main/resources/assets/amongius/models/block/amongwoodstairs_outer.json",
-          "src/main/resources/assets/amongius/models/block/amongwoodstairs_inner.json",
           "src/main/resources/assets/amongius/models/item/amongwoodstairs.json",
+          "src/main/resources/assets/amongius/models/block/amongwoodstairs.json",
+          "src/main/java/net/mcreator/amongius/block/AmongwoodstairsBlock.java",
+          "src/main/resources/data/amongius/loot_tables/blocks/amongwoodstairs.json",
           "src/main/resources/assets/amongius/blockstates/amongwoodstairs.json",
-          "src/main/resources/assets/amongius/models/block/amongwoodstairs.json"
+          "src/main/resources/assets/amongius/models/block/amongwoodstairs_outer.json",
+          "src/main/resources/assets/amongius/models/block/amongwoodstairs_inner.json"
         ]
       },
       "path": "~/blocks"
@@ -1558,13 +1557,13 @@
       "registry_name": "amongwood_slab",
       "metadata": {
         "files": [
-          "src/main/resources/assets/amongius/models/block/amongwood_slab.json",
+          "src/main/resources/assets/amongius/blockstates/amongwood_slab.json",
           "src/main/java/net/mcreator/amongius/block/AmongwoodSlabBlock.java",
-          "src/main/resources/assets/amongius/models/block/amongwood_slab_top.json",
-          "src/main/resources/assets/amongius/models/block/amongwood_slab_full.json",
-          "src/main/resources/data/amongius/loot_tables/blocks/amongwood_slab.json",
           "src/main/resources/assets/amongius/models/item/amongwood_slab.json",
-          "src/main/resources/assets/amongius/blockstates/amongwood_slab.json"
+          "src/main/resources/data/amongius/loot_tables/blocks/amongwood_slab.json",
+          "src/main/resources/assets/amongius/models/block/amongwood_slab_full.json",
+          "src/main/resources/assets/amongius/models/block/amongwood_slab_top.json",
+          "src/main/resources/assets/amongius/models/block/amongwood_slab.json"
         ]
       },
       "path": "~/blocks"
@@ -1761,13 +1760,13 @@
       "registry_name": "amongfence",
       "metadata": {
         "files": [
-          "src/main/resources/assets/amongius/models/block/amongfence_inventory.json",
-          "src/main/java/net/mcreator/amongius/block/AmongfenceBlock.java",
-          "src/main/resources/assets/amongius/models/block/amongfence.json",
-          "src/main/resources/assets/amongius/blockstates/amongfence.json",
-          "src/main/resources/assets/amongius/models/block/amongfence_post.json",
           "src/main/resources/data/amongius/loot_tables/blocks/amongfence.json",
-          "src/main/resources/assets/amongius/models/item/amongfence.json"
+          "src/main/resources/assets/amongius/models/block/amongfence_post.json",
+          "src/main/resources/assets/amongius/models/item/amongfence.json",
+          "src/main/resources/assets/amongius/models/block/amongfence.json",
+          "src/main/java/net/mcreator/amongius/block/AmongfenceBlock.java",
+          "src/main/resources/assets/amongius/blockstates/amongfence.json",
+          "src/main/resources/assets/amongius/models/block/amongfence_inventory.json"
         ]
       },
       "path": "~/blocks"
@@ -1949,6 +1948,19 @@
         ]
       },
       "path": "~/blocks"
+    },
+    {
+      "name": "Blueamongleaves",
+      "type": "loottable",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blueamongleaves",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/amongius/loot_tables/blocks/blue_among_leave.json"
+        ]
+      },
+      "path": "~/blocks"
     }
   ],
   "variable_elements": [
@@ -2045,12 +2057,12 @@
     "ITEMS:minecraft:music_discs": [
       "~CUSTOM:AmongDisc"
     ],
-    "BIOMES:minecraft:is_overworld": [],
     "BLOCKS:minecraft:logs": [
       "CUSTOM:HTest"
     ],
     "BLOCKS:minecraft:leaves": [
-      "CUSTOM:BlueAmongLeave"
+      "CUSTOM:BlueAmongLeave",
+      "CUSTOM:AmongLeave"
     ],
     "BLOCKS:minecraft:mineable/axe": [
       "~CUSTOM:Amongfence",
@@ -2121,7 +2133,7 @@
       "block.henrys_mod.amongius_block": "Amongius Cube",
       "painting.amongius.smile.title": "Smile",
       "block.henrys_mod.among_leave": "Among Leave",
-      "block.amongius.blue_among_leave": "Among Leave",
+      "block.amongius.blue_among_leave": "Blue Amongwood Leaves",
       "painting.henrys_mod.nickmen.author": "Earthquake101",
       "painting.henrys_mod.singed.title": "Singed",
       "painting.henrys_mod.venom.title": "Venom Dunking on Spiderman",
@@ -2164,12 +2176,12 @@
       "death.attack.among_us.player": "%1$s died whilst trying to escape %2$s",
       "subtitles.amongdeath": "",
       "entity.henrys_mod.among_missile_up": "Among Missile Up",
-      "biome.amongius.among_forest": "Among Forest",
       "item.minecraft_mod.raw_amongius": "Raw Amongius",
       "item.amongius.among_car_spawn_egg": "Among Car Spawn Egg",
       "gui.minecraft_mod.among_crafting_gui.button_forge": "Forge",
       "block.henrys_mod.among_crafting": "Amongius Forge",
       "painting.henrys_mod.sponge_dunk.author": "Nicole Kim",
+      "biome.amongius.amongwood_forest": "Amongwood Forest",
       "gui.henrys_mod.among_storage_gui.label_amongius_storage_container": "Amongius Storage Container",
       "item.minecraft_mod.among_nugget": "Amongius Fragment",
       "painting.henrys_mod.singed.author": "League of Legends",
@@ -2203,7 +2215,7 @@
       "item.henrys_mod.among_apple": "Amongius Apple",
       "biome.minecraft_mod.among_forest": "Among Forest",
       "painting.henrys_mod.squid_game.author": "ArtBlox406",
-      "block.amongius.among_leave": "Amongwood Leaves",
+      "block.amongius.among_leave": "Red Amongwood Leaves",
       "painting.amongius.funky.title": "Funky Kong",
       "item.amongius.amongius_ingot": "Amongius Ingot",
       "painting.amongius.broccoli.title": "Broccoli",
@@ -2292,7 +2304,7 @@
   "workspaceSettings": {
     "modid": "amongius",
     "modName": "Among Us Infection",
-    "version": "1.1.3",
+    "version": "1.1.4",
     "description": "Infects your world with the Among Us Biome",
     "author": "Earthquake101, MCreator",
     "websiteURL": "https://mcreator.net",

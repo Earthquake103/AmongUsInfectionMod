@@ -33,7 +33,7 @@
         "subtract": false
       }
     ],
-    "name": "Among Leave",
+    "name": "Blue Amongwood Leaves",
     "specialInformation": {
       "fixedValue": []
     },
@@ -51,8 +51,8 @@
       "value": ""
     },
     "dropAmount": 1,
-    "useLootTableForDrops": false,
-    "requiresCorrectTool": true,
+    "useLootTableForDrops": true,
+    "requiresCorrectTool": false,
     "enchantPowerBonus": 0.0,
     "plantsGrowOn": false,
     "canRedstoneConnect": false,

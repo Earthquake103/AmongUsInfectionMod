@@ -2,7 +2,7 @@
   "_fv": 66,
   "_type": "biome",
   "definition": {
-    "name": "Among Forest",
+    "name": "Amongwood Forest",
     "groundBlock": {
       "value": "Blocks.GRASS"
     },

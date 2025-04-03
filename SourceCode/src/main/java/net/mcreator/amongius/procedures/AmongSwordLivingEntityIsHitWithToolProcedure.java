@@ -39,7 +39,7 @@ public class AmongSwordLivingEntityIsHitWithToolProcedure {
 				if (Mth.nextInt(RandomSource.create(), 1, 5) == 1) {
 					AmongiusMod.queueServerWork(60, () -> {
 						if (world instanceof Level _level && !_level.isClientSide())
-							_level.explode(null, (entity.getX()), (entity.getY()), (entity.getZ()), 4, Level.ExplosionInteraction.NONE);
+							_level.explode(null, (entity.getX()), (entity.getY()), (entity.getZ()), 1, Level.ExplosionInteraction.NONE);
 					});
 				}
 			}
@@ -47,7 +47,13 @@ public class AmongSwordLivingEntityIsHitWithToolProcedure {
 		if (!isPlayer) {
 			AmongiusMod.queueServerWork(60, () -> {
 				if (world instanceof Level _level && !_level.isClientSide())
-					_level.explode(null, (entity.getX()), (entity.getY()), (entity.getZ()), 4, Level.ExplosionInteraction.NONE);
+					_level.explode(null, (entity.getX()), (entity.getY()), (entity.getZ()), 2, Level.ExplosionInteraction.NONE);
+			});
+		}
+		if (entity.isAlive()) {
+			AmongiusMod.queueServerWork(95, () -> {
+				if (entity instanceof LivingEntity _entity && !_entity.level().isClientSide())
+					_entity.addEffect(new MobEffectInstance(MobEffects.SLOW_FALLING, 60, 1));
 			});
 		}
 	}

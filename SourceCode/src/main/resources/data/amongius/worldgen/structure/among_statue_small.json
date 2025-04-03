@@ -10,6 +10,6 @@
     "absolute": 0
   },
   "project_start_to_heightmap": "WORLD_SURFACE",
-  "biomes": "amongius:among_forest",
+  "biomes": "amongius:amongwood_forest",
   "use_expansion_hack": false
 }

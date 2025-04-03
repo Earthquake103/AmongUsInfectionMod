@@ -15,7 +15,7 @@ import net.minecraft.core.BlockPos;
 
 public class BlueAmongLeaveBlock extends Block {
 	public BlueAmongLeaveBlock() {
-		super(BlockBehaviour.Properties.of().ignitedByLava().mapColor(MapColor.COLOR_RED).sound(SoundType.GRASS).strength(0.2f, 10f).requiresCorrectToolForDrops().noOcclusion().isRedstoneConductor((bs, br, bp) -> false));
+		super(BlockBehaviour.Properties.of().ignitedByLava().mapColor(MapColor.COLOR_RED).sound(SoundType.GRASS).strength(0.2f, 10f).noOcclusion().isRedstoneConductor((bs, br, bp) -> false));
 	}
 
 	@Override

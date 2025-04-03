@@ -38,7 +38,6 @@ public class AmongiusModTabs {
 			tabData.accept(AmongiusModItems.AMONG_SWORD.get());
 		} else if (tabData.getTabKey() == CreativeModeTabs.SPAWN_EGGS) {
 			tabData.accept(AmongiusModItems.AMONGLE_SPAWN_EGG.get());
-			tabData.accept(AmongiusModItems.AMONG_CAR_SPAWN_EGG.get());
 		} else if (tabData.getTabKey() == CreativeModeTabs.INGREDIENTS) {
 			tabData.accept(AmongiusModItems.AMONGIUS_INGOT.get());
 			tabData.accept(AmongiusModItems.RAW_AMONGIUS.get());
