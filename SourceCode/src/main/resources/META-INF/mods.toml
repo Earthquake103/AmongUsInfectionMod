@@ -4,13 +4,13 @@ license="All Rights Reserved"
 
 [[mods]]
 modId="amongius"
-version="1.1.4"
+version="1.1.5"
 displayName="Among Us Infection"
 displayURL="https://mcreator.net"
 logoFile="logo.png"
 credits="Created using mod maker MCreator - https://mcreator.net/about"
 authors="Earthquake101, MCreator"
-description="Infects your world with the Among Us Biome"
+description="Infects a portion of your world with the Amongwood Forest"
 
 # Start of user code block mod configuration
 # End of user code block mod configuration

@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "bbb",
+    "aba"
+  ],
+  "key": {
+    "a": {
+      "item": "amongius:among_nugget"
+    },
+    "b": {
+      "item": "amongius:among_wood_plank"
+    }
+  },
+  "result": {
+    "item": "amongius:among_crafting",
+    "count": 1
+  }
+}

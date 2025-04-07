@@ -1961,6 +1961,19 @@
         ]
       },
       "path": "~/blocks"
+    },
+    {
+      "name": "Forgeamongwood",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "forgeamongwood",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/amongius/recipes/forgeamongwood.json"
+        ]
+      },
+      "path": "~/recipes"
     }
   ],
   "variable_elements": [
@@ -2103,15 +2116,15 @@
       "painting.henrys_mod.broccoli.author": "Prolam Y\u0026R",
       "painting.minecraft_mod.amongle_paint.author": "Unknown",
       "painting.henrys_mod.venom.author": "Kael Ngu",
-      "painting.henrys_mod.sponge_dunk.title": "Spongebob Dunking",
       "item.amongius.amongle_spawn_egg": "Amongle Spawn Egg",
+      "painting.henrys_mod.sponge_dunk.title": "Spongebob Dunking",
       "block.amongius.amongwoodstairs": "Amongwood Stairs",
       "block.henrys_mod.among_wood_plank": "Amongwood Planks",
       "item.minecraft_mod.among_launcher": "Amongius Launcher",
       "painting.amongius.bart_shrankson.title": "Biargle Shrankson",
       "gui.amongius.among_missile_gui.label_enter_victim_name_here": "Enter Victim Name Here",
-      "item.henrys_mod.among_sword": "Amongius Blade",
       "painting.amongius.goku.title": "Drip Goku",
+      "item.henrys_mod.among_sword": "Amongius Blade",
       "painting.amongius.sponge_dunk.title": "Spongebob Dunking",
       "item.henrys_mod.among_pickaxe": "Amongius Pickaxe",
       "item.amongius.face_mask_helmet": "Henry Mask",
@@ -2168,7 +2181,7 @@
       "entity.amongius.amongle": "Amongle",
       "painting.amongius.singed.title": "Singed",
       "painting.henrys_mod.squid_game.title": "Roblox Squid Game",
-      "item.amongius.among_launcher": "Amongius Launcher",
+      "item.amongius.among_launcher": "Amongius Wand",
       "painting.amongius.nickmen.title": "Nickmen",
       "block.henrys_mod.amongius_storage_container": "Amongius Storage Container",
       "biome.henrys_mod.among_forest": "Among Forest",
@@ -2304,8 +2317,8 @@
   "workspaceSettings": {
     "modid": "amongius",
     "modName": "Among Us Infection",
-    "version": "1.1.4",
-    "description": "Infects your world with the Among Us Biome",
+    "version": "1.1.5",
+    "description": "Infects a portion of your world with the Amongwood Forest",
     "author": "Earthquake101, MCreator",
     "websiteURL": "https://mcreator.net",
     "license": "All Rights Reserved",
