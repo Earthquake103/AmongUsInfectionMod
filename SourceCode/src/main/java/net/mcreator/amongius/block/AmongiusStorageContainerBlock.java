@@ -51,7 +51,7 @@ public class AmongiusStorageContainerBlock extends Block implements EntityBlock 
 	public static final DirectionProperty FACING = HorizontalDirectionalBlock.FACING;
 
 	public AmongiusStorageContainerBlock() {
-		super(BlockBehaviour.Properties.of().instrument(NoteBlockInstrument.BASEDRUM).sound(SoundType.METAL).strength(50f, 0f).lightLevel(s -> 10).noOcclusion().hasPostProcess((bs, br, bp) -> true).emissiveRendering((bs, br, bp) -> true)
+		super(BlockBehaviour.Properties.of().instrument(NoteBlockInstrument.BASEDRUM).sound(SoundType.METAL).strength(3f, 0f).lightLevel(s -> 10).noOcclusion().hasPostProcess((bs, br, bp) -> true).emissiveRendering((bs, br, bp) -> true)
 				.isRedstoneConductor((bs, br, bp) -> false));
 		this.registerDefaultState(this.stateDefinition.any().setValue(FACING, Direction.NORTH));
 	}
@@ -60,8 +60,8 @@ public class AmongiusStorageContainerBlock extends Block implements EntityBlock 
 	public void appendHoverText(ItemStack itemstack, BlockGetter level, List<Component> list, TooltipFlag flag) {
 		super.appendHoverText(itemstack, level, list, flag);
 		list.add(Component.literal("Perfectly constructed to store your Amongius items"));
-		list.add(Component.literal("Try your best not to fill a slot with more than 63 items"));
-		list.add(Component.literal("(Minor Combustion Risk)"));
+		list.add(Component.literal("Try your best not to fill a slot with more than 63 items."));
+		list.add(Component.literal("(Minor Death Risk)"));
 	}
 
 	@Override

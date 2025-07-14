@@ -9,11 +9,29 @@
         "value": "Blocks.STRUCTURE_BLOCK"
       }
     ],
-    "spacing": 40,
-    "separation": 20,
+    "spacing": 70,
+    "separation": 50,
     "restrictionBiomes": [
       {
-        "value": "#minecraft:is_overworld"
+        "value": "CUSTOM:AmongForest"
+      },
+      {
+        "value": "taiga"
+      },
+      {
+        "value": "taiga_cold"
+      },
+      {
+        "value": "roofed_forest"
+      },
+      {
+        "value": "redwood_taiga"
+      },
+      {
+        "value": "mutated_redwood_taiga"
+      },
+      {
+        "value": "snowy_tundra"
       }
     ],
     "terrainAdaptation": "none",

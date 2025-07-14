@@ -2085,6 +2085,7 @@
       "~CUSTOM:HTest"
     ],
     "BLOCKS:minecraft:mineable/pickaxe": [
+      "~CUSTOM:AmongiusStorageContainer",
       "~CUSTOM:AmongiusOre"
     ],
     "BLOCKS:minecraft:slabs": [
@@ -2317,7 +2318,7 @@
   "workspaceSettings": {
     "modid": "amongius",
     "modName": "Among Us Infection",
-    "version": "1.1.5",
+    "version": "1.1.6",
     "description": "Infects a portion of your world with the Amongwood Forest",
     "author": "Earthquake101, MCreator",
     "websiteURL": "https://mcreator.net",

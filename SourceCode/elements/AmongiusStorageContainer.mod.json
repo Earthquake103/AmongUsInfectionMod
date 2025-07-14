@@ -37,11 +37,11 @@
     "specialInformation": {
       "fixedValue": [
         "Perfectly constructed to store your Amongius items",
-        "Try your best not to fill a slot with more than 63 items",
-        "(Minor Combustion Risk)"
+        "Try your best not to fill a slot with more than 63 items.",
+        "(Minor Death Risk)"
       ]
     },
-    "hardness": 50.0,
+    "hardness": 3.0,
     "resistance": 0.0,
     "hasGravity": false,
     "isWaterloggable": false,
@@ -50,7 +50,7 @@
         "value": "TRANSPORTATION"
       }
     ],
-    "destroyTool": "Not specified",
+    "destroyTool": "pickaxe",
     "customDrop": {
       "value": ""
     },
@@ -106,7 +106,7 @@
     },
     "luminance": 10,
     "unbreakable": false,
-    "vanillaToolTier": "STONE",
+    "vanillaToolTier": "NONE",
     "isBonemealable": false,
     "hasInventory": true,
     "guiBoundTo": "AmongStorageGUI",

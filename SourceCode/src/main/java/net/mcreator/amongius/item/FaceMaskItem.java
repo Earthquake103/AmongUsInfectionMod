@@ -98,8 +98,9 @@ public abstract class FaceMaskItem extends ArmorItem {
 		@Override
 		public void appendHoverText(ItemStack itemstack, Level level, List<Component> list, TooltipFlag flag) {
 			super.appendHoverText(itemstack, level, list, flag);
-			list.add(Component.literal("This will NEVER come off"));
-			list.add(Component.literal(""));
+			list.add(Component.literal("This will NEVER come off."));
+			list.add(Component.literal("You must find the Forbidden Fruit"));
+			list.add(Component.literal("to rid yourself of this curse..."));
 			list.add(Component.literal("'Looks just like me!'"));
 		}
 

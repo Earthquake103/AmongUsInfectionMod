@@ -10,6 +10,25 @@
     "absolute": 0
   },
   "project_start_to_heightmap": "WORLD_SURFACE_WG",
-  "biomes": "#minecraft:is_overworld",
+  "biomes": [
+    "amongius:amongwood_forest",
+    "taiga",
+    "cherry_grove",
+    "bamboo_jungle",
+    "dark_forest",
+    "forest",
+    "grove",
+    "jungle",
+    "meadow",
+    "mushroom_fields",
+    "mangrove_swamp",
+    "snowy_taiga",
+    "swamp",
+    "windswept_forest",
+    "wooded_badlands",
+    "savanna",
+    "sparse_jungle",
+    "birch_forest"
+  ],
   "use_expansion_hack": false
 }

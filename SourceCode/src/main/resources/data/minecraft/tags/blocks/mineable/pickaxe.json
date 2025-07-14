@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
+    "amongius:amongius_storage_container",
     "amongius:amongius_ore"
   ]
 }

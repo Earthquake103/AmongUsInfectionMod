@@ -16,7 +16,58 @@
     "separation": 4,
     "restrictionBiomes": [
       {
-        "value": "#minecraft:is_overworld"
+        "value": "CUSTOM:AmongForest"
+      },
+      {
+        "value": "taiga"
+      },
+      {
+        "value": "cherry_grove"
+      },
+      {
+        "value": "bamboo_jungle"
+      },
+      {
+        "value": "roofed_forest"
+      },
+      {
+        "value": "forest"
+      },
+      {
+        "value": "grove"
+      },
+      {
+        "value": "jungle"
+      },
+      {
+        "value": "meadow"
+      },
+      {
+        "value": "mushroom_fields"
+      },
+      {
+        "value": "mangrove_swamp"
+      },
+      {
+        "value": "taiga_cold"
+      },
+      {
+        "value": "swamp"
+      },
+      {
+        "value": "extreme_hills_with_trees"
+      },
+      {
+        "value": "wooded_badlands_plateau"
+      },
+      {
+        "value": "savanna"
+      },
+      {
+        "value": "jungle_edge"
+      },
+      {
+        "value": "birch_forest"
       }
     ],
     "terrainAdaptation": "none",

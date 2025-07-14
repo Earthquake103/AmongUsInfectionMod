@@ -10,6 +10,14 @@
     "absolute": 0
   },
   "project_start_to_heightmap": "WORLD_SURFACE_WG",
-  "biomes": "#minecraft:is_overworld",
+  "biomes": [
+    "amongius:amongwood_forest",
+    "taiga",
+    "snowy_taiga",
+    "dark_forest",
+    "old_growth_pine_taiga",
+    "old_growth_spruce_taiga",
+    "snowy_plains"
+  ],
   "use_expansion_hack": false
 }
